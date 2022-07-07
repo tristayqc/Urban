@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: MegaCityStreet
   m_Shader: {fileID: 4800000, guid: 80a545cd14f9a5f49b42ccd7a68057ed, type: 3}
   m_ShaderKeywords: _DETAIL_MULX2 _EMISSION _METALLICGLOSSMAP _NORMALMAP _SPECGLOSSMAP
@@ -236,19 +237,19 @@ Material:
     - _Float10: 0.66
     - _Float12: 0
     - _Float14: 0.75
-    - _Float2: 0.89
+    - _Float2: 0.9
     - _Float3: 1.3
     - _Float4: 0.64
-    - _Float6: 0.33
+    - _Float6: 0.15
     - _Float7: -0.46
     - _Float8: 1.06
-    - _Float9: 2.94
+    - _Float9: -5.63
     - _GlassNormal: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.484
     - _GlossyReflections: 1
     - _GrateFrequency: 9
-    - _GrateSpecular: 0.53
+    - _GrateSpecular: 0.26
     - _HiglightsInteriour: 0
     - _HorizontSpacing: 0
     - _InteriourBlur: 0
@@ -258,7 +259,7 @@ Material:
     - _LightsDistance: 0.02
     - _Lightsheight: 0.05
     - _Metallic: 0
-    - _Mettalic: 0.25
+    - _Mettalic: 0.95
     - _MinInteriourSmoothnes: 0
     - _MinSmoothness: 0
     - _MinSpecular: 0
@@ -267,7 +268,7 @@ Material:
     - _Occlusion: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Patches: 0.6
+    - _Patches: 0.5
     - _Pu: 0.18
     - _Puddles: 0.1
     - _Raindrops: 0.308
@@ -283,7 +284,7 @@ Material:
     - _SrcBlend: 1
     - _StreetIlluminationShape: 0.04
     - _StreetLightDistances: -0.06
-    - _TVAO_High_Value: 12.94
+    - _TVAO_High_Value: 16.27
     - _TVAO_LowValue: 0
     - _TessMax: 25
     - _TessMin: 10
@@ -324,3 +325,4 @@ Material:
     - _Vector1: {r: 1728.6, g: 1728.6, b: 0, a: 0}
     - _Vector3: {r: 0, g: 0.05, b: 0, a: 0}
     - _WindowBorderCol: {r: 0.44852924, g: 0.44852924, b: 0.44852924, a: 0}
+  m_BuildTextureStacks: []
