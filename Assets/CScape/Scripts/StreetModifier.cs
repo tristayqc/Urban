@@ -105,7 +105,7 @@ namespace CScape
 
             //meshOriginal = GetComponent<MeshFilter>().sharedMesh;
             if (cityRandomizerParent == null)
-                cityRandomizerParent = GameObject.Find("CScape City").GetComponent<CityRandomizer>();
+                cityRandomizerParent = GameObject.Find("CScapeCity").GetComponent<CityRandomizer>();
             originalVertices = meshOriginal.vertices;
             //   originalUVs = meshOriginal.uv;
             originalColors = meshOriginal.colors;

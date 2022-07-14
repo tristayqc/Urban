@@ -21,7 +21,7 @@ public class MoveCamera : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         moveVector.x = Input.GetAxisRaw("Horizontal");
         moveVector.z = Input.GetAxisRaw("Vertical");
