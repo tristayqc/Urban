@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: ShinyMaterial
   m_Shader: {fileID: 4800000, guid: 6500b3779519a0643a43ed4d6867e195, type: 3}
   m_ShaderKeywords: _EMISSION _LIGHTMAPPING_REALTIME _UVSEC_UV1
@@ -140,8 +141,9 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 0.5735294, g: 0.56087804, b: 0.56087804, a: 1}
-    - _DiffuseColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _DiffuseColor: {r: 0.9294118, g: 0.654902, b: 0.30588236, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColorUI: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColorWithMapUI: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
