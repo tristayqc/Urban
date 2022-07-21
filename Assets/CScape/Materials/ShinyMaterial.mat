@@ -141,7 +141,7 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 0.5735294, g: 0.56087804, b: 0.56087804, a: 1}
-    - _DiffuseColor: {r: 0.9294118, g: 0.654902, b: 0.30588236, a: 1}
+    - _DiffuseColor: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColorUI: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColorWithMapUI: {r: 1, g: 1, b: 1, a: 1}
