@@ -81,7 +81,7 @@ namespace CScape
             {
                 combine[i].mesh = meshFilters[i].sharedMesh;
                 combine[i].transform = meshFilters[i].transform.localToWorldMatrix;
-                meshFilters[i].gameObject.active = false;
+                meshFilters[i].gameObject.SetActive(false);
                 meshFilters[i].gameObject.isStatic = false;
                 i++;
             }

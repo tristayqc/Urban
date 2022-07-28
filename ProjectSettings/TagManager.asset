@@ -4,9 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Pickable
   - Cube
   - Fracture
+  - Pickable
+  - reversedTrigger
+  - defaultTrigger
   layers:
   - Default
   - TransparentFX
