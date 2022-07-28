@@ -29,7 +29,7 @@ namespace VarjoExample
                 //xrRig.transform.Translate(VectorYToZero(head.forward) * moveSpeed * Time.deltaTime, Space.World);
                 
                 // Body-based steering (Body rotation is tracked by a Vive Tracker)
-                xrRig.transform.Translate(ProjectToXZPlane(bodyTracker.up) * moveSpeed * Time.deltaTime, Space.World);
+                xrRig.transform.Translate(ProjectToXZPlane(bodyTracker.forward) * moveSpeed * Time.deltaTime, Space.World);
             }
 
         }

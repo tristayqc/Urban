@@ -48,11 +48,15 @@ public class ShowArrows : MonoBehaviour
                     cueNS.SetActive(true);
                 }
             }
-            else
-            {
-                cue.SetActive(false);
-                cueNS.SetActive(false);
-            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("MainCamera"))
+        {
+            cue.SetActive(false);
+            cueNS.SetActive(false);
         }
     }
 }
