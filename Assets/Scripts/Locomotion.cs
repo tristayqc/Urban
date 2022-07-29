@@ -13,11 +13,17 @@ namespace VarjoExample
         public Transform bodyTracker;
         [Header("Use controller.primaryButton to move")]
         public float moveSpeed = 1.80f;
+        //[Header("set Cam Location")]
+        //public Transform startPos;
+        //public float desiredHeight;
 
         // Start is called before the first frame update
         void Start()
-        {
+        {   
             controller = GetComponent<Controller>();
+            /*Vector3 tempPos = startPos.position;
+            tempPos.y = desiredHeight;
+            xrRig.position = tempPos;*/
         }
 
         // Update is called once per frame
