@@ -12,10 +12,10 @@ namespace VarjoExample
         public Transform head;
         public Transform bodyTracker;
         [Header("Use controller.primaryButton to move")]
-        public float moveSpeed = 1.80f;
-        //[Header("set Cam Location")]
-        //public Transform startPos;
-        //public float desiredHeight;
+        public float moveSpeed;
+        [Header("set Cam height")]
+        public float desiredHeight;
+        private Vector3 tempPos;
 
         // Start is called before the first frame update
         void Start()
@@ -31,11 +31,16 @@ namespace VarjoExample
         {
             if (controller.primaryButton)
             {
+                tempPos = xrRig.position;
+                tempPos.y = desiredHeight;
+                xrRig.position = tempPos;
+
                 // Head-based steering
                 //xrRig.transform.Translate(VectorYToZero(head.forward) * moveSpeed * Time.deltaTime, Space.World);
                 
                 // Body-based steering (Body rotation is tracked by a Vive Tracker)
                 xrRig.transform.Translate(ProjectToXZPlane(bodyTracker.forward) * moveSpeed * Time.deltaTime, Space.World);
+
             }
 
         }

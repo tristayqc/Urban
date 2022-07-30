@@ -64,6 +64,12 @@ public class TeleportInPointingTask : MonoBehaviour
 
         //Shuffle the Random_IndexList
         IListExtensions.Shuffle<int>(Random_IndexList);
+
+        //Inactivate all landmark images
+        for (int i = 0; i < LandmarkImages.Count; ++i)
+        {
+            LandmarkImages[i].SetActive(false);
+        }
     }
 
 
