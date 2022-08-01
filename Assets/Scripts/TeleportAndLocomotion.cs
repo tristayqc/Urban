@@ -18,8 +18,8 @@ namespace VarjoExample
         private Vector3 tempPos;
         [Header("Press T to teleport to this location")]
         public Transform startPos;
-        private bool teleported;
-
+        private bool teleported;  
+        
         // Start is called before the first frame update
         void Start()
         {   
