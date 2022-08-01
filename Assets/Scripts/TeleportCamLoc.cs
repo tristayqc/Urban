@@ -10,10 +10,11 @@ public class TeleportCamLoc : MonoBehaviour
     [Header("Press T to teleport to this location")]
     public Transform startPos;
     public float desiredHeight;
+    private bool teleported;
 
     void Start()
     {
-        
+        teleported = false;
     }
 
     // Update is called once per frame
@@ -23,7 +24,13 @@ public class TeleportCamLoc : MonoBehaviour
             Vector3 tempPos = startPos.position;
             tempPos.y = desiredHeight;
             xrRig.position = tempPos;
+            teleported = true;
         }
         
+    }
+
+    public bool IsTeleported()
+    {
+        return teleported;
     }
 }

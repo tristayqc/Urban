@@ -5,15 +5,15 @@ using UnityEngine;
 public class ShowArrows : MonoBehaviour
 {
     public GameObject cue;
-    public GameObject cueNS;
-    public bool salient;
+    //public GameObject cueNS;
+    //public bool salient;
     public bool back;
 
     // Start is called before the first frame update
     void Start()
     {
         cue.SetActive(false);
-        cueNS.SetActive(false);
+        //cueNS.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,25 +28,27 @@ public class ShowArrows : MonoBehaviour
         {
             if (back && CompareTag("reversedTrigger"))
             {
-                if (salient)
+                cue.SetActive(true);
+                /*if (salient)
                 {
                     cue.SetActive(true);
                 }
                 else
                 {
                     cueNS.SetActive(true);
-                }
+                }*/
             }
             else if (!back && CompareTag("defaultTrigger"))
             {
-                if (salient)
+                cue.SetActive(true);
+                /*if (salient)
                 {
                     cue.SetActive(true);
                 }
                 else
                 {
                     cueNS.SetActive(true);
-                }
+                }*/
             }
         }
     }
@@ -56,7 +58,7 @@ public class ShowArrows : MonoBehaviour
         if (other.CompareTag("MainCamera"))
         {
             cue.SetActive(false);
-            cueNS.SetActive(false);
+            //cueNS.SetActive(false);
         }
     }
 }
