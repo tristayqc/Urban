@@ -20,6 +20,7 @@ public class ControllerTriggerFunc : MonoBehaviour
     Controller controller;
     int TriggerNum = 0; 
     int TrialNum = 0;
+    int landmarkNum = 6;
 
     string Path;
     string FileName;
@@ -83,7 +84,7 @@ public class ControllerTriggerFunc : MonoBehaviour
             if (!task.taskFinish)
             {
                 //Log estimated direction for the previous trial
-                if (TriggerNum >= 1 && TriggerNum % 7 != 0)
+                if (TriggerNum >= 1 && TriggerNum % landmarkNum != 0)
                 {
                     controllerRay.SetEstimatedDirection();
                     estDirection = controllerRay.EstimatedDirection;
