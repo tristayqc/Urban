@@ -115,16 +115,19 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EmissionScaleUI: 1
+    - _Exposure: 0
     - _Float0: 0
     - _Float1: 1
     - _Float11: 0.1
     - _Float13: 0.1
     - _Float17: 0.32
     - _Float7: 0.1
+    - _Focus: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.779
     - _GlossyReflections: 1
     - _Illumination: 0
+    - _Int0: 80
     - _Lightmapping: 1
     - _Lightness: 0
     - _Metallic: 0
